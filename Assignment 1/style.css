@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#spreadsheet {
+    border-collapse: collapse;
+}
+
+#spreadsheet td, #spreadsheet th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    min-width: 80px;
+    text-align: left;
+}
+
+#formula-bar {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#formula-input {
+    width: 90%;
+    padding: 5px;
+}
+
+.selected {
+    background-color: lightblue;
+}
+
+.cell-input{
+  width: 100%;
+  border: none;
+  outline: none;
+}
